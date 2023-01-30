@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@0;1&display=swap');
+body{
+    background-color: aliceblue;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 47px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 60px;
+    height: 47px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 23px auto;
+    display: flex;
+    width: 70%;
+    border-radius: 14px ;
+    padding: 24px;
+    background-image: url('girl.jpeg');
+    background-repeat: no-repeat;
+    background-position-x: right ;
+    background-size: 583px 605px;
+    background-position-y: bottom;
+
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: yellow;
+    color: white;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.icons{
+    margin: 15px 0;
+}
+.icons i{
+    cursor: pointer;
+}
+#progress-bar{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+.songItem{
+    background-color: white;
+    height: 54px;
+    width: 90%;
+    color: black;
+    display: flex;
+    margin: 10px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+
+
+}
+.songListContainer{
+    margin: 70px 0px;
+}
+.songItem img{
+    height: 50px;
+    width: 50px;
+    margin: 0 12px;
+    border-radius: 60px;
+
+}
+.timestamp{
+    margin: 0 12px;
+}
+.songInfo{
+    position: absolute;
+    left: 10.5vw;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+.songInfo img{
+    height: 20px;
+    opacity: 0;
+    transform: opacity 0.3s ease-in;
+}
